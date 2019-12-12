@@ -12,5 +12,4 @@ def my_collect(array)
   else
     "No block given"
   end
-  new_array
 end
