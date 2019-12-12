@@ -7,6 +7,7 @@ def my_collect(array)
   else
     "No block given"
   end
+  new_array
 end
 my_collect(array) do |name|
   name.split(" ").first
