@@ -8,6 +8,6 @@ def my_collect(array)
     "No block given"
   end
 end
-my_collect(array) do |item|
+my_collect(array) do |name|
   name.split(" ").first
 end
